@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Filter</title>
+
+    <style>
+    #mytable tr.header, #mytable tr:hover {
+        background-color: #52c5f1;
+    }
+    table#mytable {
+    width: 100%;
+    text-align: center;
+    background: aliceblue;
+}
+table#mytable tr td {
+    padding: 10px 10px;
+    border: 1px solid #cecece;
+}
+tr.header th {
+    padding: 10px 0;
+}
+input#inputdata {
+    width: 80%;
+    height: 32px;
+    margin: 20px auto;
+    display: flex;
+    padding: 0px 0px 0px 20px;
+}
+
+    </style>
+        
+</head>
+<body>
+    <h2 style="text-align:center">Table Search Filter</h2>
+    <input type="text" name="" id="inputdata" placeholder="Find here" onkeyup="searchfun()">
+    <table id="mytable">
+        <tr class="header">
+            <th style="Width:40%">Name</th>
+            <th style="Width:30%">Degree</th>
+            <th style="Width:30%">Profession</th>
+        </tr>
+        <tr>
+            <td>Vinod</td>
+            <td>MSC</td>
+            <td>FullStack Developer</td>
+          
+        </tr>
+        <tr>
+            <td>Ramesh</td>
+            <td>BSC</td>
+            <td>Android Developer</td>
+          
+        </tr>
+        <tr>
+            <td>Nitin</td>
+            <td>Bcom</td>
+            <td>Business Analsyt</td>
+          
+        </tr>
+        <tr>
+            <td>vijay</td>
+            <td>BCA</td>
+            <td>Tester</td>
+          
+        </tr>
+        <tr>
+            <td>Ashish</td>
+            <td>BBA</td>
+            <td>HR Manager</td>
+          
+        </tr>
+        <tr>
+            <td>sandeep</td>
+            <td>Bcom</td>
+            <td>Tester</td>
+          
+        </tr>
+        <tr>
+            <td>Harish</td>
+            <td>BSC</td>
+            <td>software developer</td>
+          
+        </tr>
+        <tr>
+            <td>veena</td>
+            <td>BA</td>
+            <td>HR Manager</td>
+          
+        </tr>
+        <tr>
+            <td>kanika</td>
+            <td>MSC</td>
+            <td>Android Develoepr</td>
+          
+        </tr>
+    </table> 
+   
+
+
+    <script src="./search.js"></script>
+</body>
+</html>
